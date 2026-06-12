@@ -16,3 +16,12 @@ Uso de Disco: 1%
 [OK] Uso de memória dentro do esperado.
 [OK] Uso de disco dentro do esperado.
 [OK] Apache em execução.
+===== MONITORAMENTO DO SISTEMA =====
+Data: Fri Jun 12 22:35:37 UTC 2026
+Uso de CPU: 100%
+Uso de Memória RAM: 7%
+Uso de Disco: 1%
+[ALERTA] Uso de CPU acima de 80%
+[OK] Uso de memória dentro do esperado.
+[OK] Uso de disco dentro do esperado.
+[OK] Apache em execução.

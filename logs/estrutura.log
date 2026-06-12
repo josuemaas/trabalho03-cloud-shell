@@ -57,3 +57,33 @@ guias_impostos.txt
 /app/escritorio_contabil/logs:
 
 /app/escritorio_contabil/publicacao:
+===== CRIAÇÃO DA ESTRUTURA DO ESCRITÓRIO CONTÁBIL =====
+Data: Fri Jun 12 22:21:06 UTC 2026
+[INFO] Estrutura antiga encontrada. Removendo com segurança...
+[OK] Estrutura criada em /app/escritorio_contabil
+/app/escritorio_contabil:
+backups
+clientes
+documentos_fiscais
+folha_pagamento
+impostos
+logs
+publicacao
+
+/app/escritorio_contabil/backups:
+
+/app/escritorio_contabil/clientes:
+lista_clientes.txt
+
+/app/escritorio_contabil/documentos_fiscais:
+notas_fiscais.txt
+
+/app/escritorio_contabil/folha_pagamento:
+funcionarios.txt
+
+/app/escritorio_contabil/impostos:
+guias_impostos.txt
+
+/app/escritorio_contabil/logs:
+
+/app/escritorio_contabil/publicacao:
