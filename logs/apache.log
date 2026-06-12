@@ -1,0 +1,8 @@
+===== INSTALAÇÃO DO APACHE =====
+Data: Fri Jun 12 21:38:11 UTC 2026
+[OK] Apache instalado com sucesso.
+===== VERIFICAÇÃO DO APACHE =====
+[OK] Apache encontrado no sistema.
+===== VERSÃO DO APACHE =====
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2026-06-03T15:42:24

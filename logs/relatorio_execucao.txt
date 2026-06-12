@@ -1,0 +1,59 @@
+=========================================
+RELATÓRIO OPERACIONAL
+Projeto: Infraestrutura para Pequeno Escritório Contábil
+Data: Fri Jun 12 21:53:56 UTC 2026
+=========================================
+
+===== ESPAÇO EM DISCO =====
+Filesystem      Size  Used Avail Use% Mounted on
+overlay        1007G  3.4G  953G   1% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+C:\             458G  152G  307G  34% /app
+/dev/sdd       1007G  3.4G  953G   1% /etc/hosts
+tmpfs           3.9G     0  3.9G   0% /proc/acpi
+tmpfs           3.9G     0  3.9G   0% /proc/scsi
+tmpfs           3.9G     0  3.9G   0% /sys/firmware
+
+===== DIRETÓRIOS DO PROJETO =====
+0	/app/Dockerfile
+0	/app/README.md
+0	/app/backups
+0	/app/docker-compose.yml
+0	/app/escritorio_contabil
+0	/app/evidencias
+20K	/app/logs
+36K	/app/scripts
+8.0K	/app/source
+
+===== STATUS DO APACHE =====
+Apache: EM EXECUÇÃO
+
+===== BACKUPS =====
+total 0
+-rw-r--r-- 1 root root 361 Jun 12 21:41 backup_escritorio_contabil_2026-06-12_21-41.tar.gz
+-rw-r--r-- 1 root root 365 Jun 12 21:53 backup_escritorio_contabil_2026-06-12_21-53.tar.gz
+
+===== LOGS =====
+total 20K
+-rw-r--r-- 1 root root  281 Jun 12 21:38 apache.log
+-rw-r--r-- 1 root root  350 Jun 12 21:53 backup.log
+-rw-r--r-- 1 root root  774 Jun 12 21:53 deploy.log
+-rw-r--r-- 1 root root 1.3K Jun 12 21:53 estrutura.log
+-rw-r--r-- 1 root root  544 Jun 12 21:53 monitoramento.log
+-rw-r--r-- 1 root root  268 Jun 12 21:47 permissoes.log
+-rw-r--r-- 1 root root 2.2K Jun 12 21:44 processos.log
+-rw-r--r-- 1 root root 1.2K Jun 12 21:53 relatorio_execucao.txt
+-rw-r--r-- 1 root root  109 Jun 12 21:36 update.log
+
+===== SITE PUBLICADO =====
+total 12K
+drwxr-xr-x 2 root root 4.0K Jun 12 21:53 assets
+-rwxr-xr-x 1 root root  641 Jun 12 21:53 index.html
+-rwxr-xr-x 1 root root  619 Jun 12 21:53 sobre.html
+
+===== USUÁRIOS =====
+contador_user:x:1000:1000::/home/contador_user:/bin/sh
+
+===== PERMISSÕES =====
+drwxr-xr-x 1 root root 512 Jun 12 21:53 /app/escritorio_contabil/clientes

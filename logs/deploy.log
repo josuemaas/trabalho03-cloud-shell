@@ -1,0 +1,20 @@
+===== DEPLOY DO SITE CONTÁBIL =====
+Data: Fri Jun 12 21:43:05 UTC 2026
+===== ARQUIVOS PUBLICADOS =====
+total 24
+drwxr-xr-x 1 root root 4096 Jun 12 21:43 .
+drwxr-xr-x 1 root root 4096 Jun 12 21:34 ..
+drwxr-xr-x 2 root root 4096 Jun 12 21:43 assets
+-rwxr-xr-x 1 root root  641 Jun 12 21:43 index.html
+-rwxr-xr-x 1 root root  619 Jun 12 21:43 sobre.html
+[OK] Deploy realizado com sucesso.
+===== DEPLOY DO SITE CONTÁBIL =====
+Data: Fri Jun 12 21:53:39 UTC 2026
+===== ARQUIVOS PUBLICADOS =====
+total 24
+drwxr-xr-x 1 root root 4096 Jun 12 21:53 .
+drwxr-xr-x 1 root root 4096 Jun 12 21:34 ..
+drwxr-xr-x 2 root root 4096 Jun 12 21:53 assets
+-rwxr-xr-x 1 root root  641 Jun 12 21:53 index.html
+-rwxr-xr-x 1 root root  619 Jun 12 21:53 sobre.html
+[OK] Deploy realizado com sucesso.

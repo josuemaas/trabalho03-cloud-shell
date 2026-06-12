@@ -1,0 +1,26 @@
+===== PROCESSOS ATIVOS =====
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   2892  1864 pts/0    Ss+  21:34   0:00 /bin/sh /usr/sbin/apachectl -D FOREGROUND
+root        15  0.0  0.0   6780  5368 pts/0    S+   21:34   0:00 /usr/sbin/apache2 -D FOREGROUND
+www-data    16  0.0  0.0 1997904 4772 pts/0    Sl+  21:34   0:00 /usr/sbin/apache2 -D FOREGROUND
+www-data    17  0.0  0.0 1997952 5296 pts/0    Sl+  21:34   0:00 /usr/sbin/apache2 -D FOREGROUND
+root        72  0.0  0.0   4628  3856 pts/1    Ss   21:36   0:00 bash
+root       653  0.0  0.0   4496  3720 pts/1    S+   21:44   0:00 /bin/bash ./06_processos.sh listar
+root       656  0.0  0.0   7064  3112 pts/1    R+   21:44   0:00 ps aux
+root       657  0.0  0.0   2796  1624 pts/1    D+   21:44   0:00 tee -a /app/logs/processos.log
+===== PROCESSOS ATIVOS =====
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   2892  1864 pts/0    Ss+  21:34   0:00 /bin/sh /usr/sbin/apachectl -D FOREGROUND
+root        15  0.0  0.0   6780  5368 pts/0    S+   21:34   0:00 /usr/sbin/apache2 -D FOREGROUND
+www-data    16  0.0  0.0 1997904 4772 pts/0    Sl+  21:34   0:00 /usr/sbin/apache2 -D FOREGROUND
+www-data    17  0.0  0.0 1997952 5296 pts/0    Sl+  21:34   0:00 /usr/sbin/apache2 -D FOREGROUND
+root        72  0.0  0.0   4628  3856 pts/1    Ss   21:36   0:00 bash
+root       658  0.0  0.0   4496  3620 pts/1    S+   21:44   0:00 /bin/bash ./06_processos.sh listar
+root       661  0.0  0.0   7064  3080 pts/1    R+   21:44   0:00 ps aux
+root       662  0.0  0.0   2796  1600 pts/1    D+   21:44   0:00 tee -a /app/logs/processos.log
+===== BUSCANDO PROCESSO: apache =====
+root         1  0.0  0.0   2892  1864 pts/0    Ss+  21:34   0:00 /bin/sh /usr/sbin/apachectl -D FOREGROUND
+root        15  0.0  0.0   6780  5368 pts/0    S+   21:34   0:00 /usr/sbin/apache2 -D FOREGROUND
+www-data    16  0.0  0.0 1997904 4772 pts/0    Sl+  21:34   0:00 /usr/sbin/apache2 -D FOREGROUND
+www-data    17  0.0  0.0 1997952 5296 pts/0    Sl+  21:34   0:00 /usr/sbin/apache2 -D FOREGROUND
+root       663  0.0  0.0   4496  3488 pts/1    S+   21:44   0:00 /bin/bash ./06_processos.sh buscar apache

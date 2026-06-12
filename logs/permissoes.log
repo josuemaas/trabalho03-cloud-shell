@@ -1,0 +1,6 @@
+===== USUÁRIOS E PERMISSÕES =====
+Data: Fri Jun 12 21:47:34 UTC 2026
+[OK] Grupo criado: contabilidade_ops
+[OK] Usuário criado: contador_user
+[OK] Permissões aplicadas.
+drwxr-x--- 1 contador_user contabilidade_ops 512 Jun 12 21:41 /app/escritorio_contabil/clientes
