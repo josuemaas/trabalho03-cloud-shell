@@ -50,11 +50,37 @@ do
             ;;
 
         6)
-            echo ""
-            echo "Para testar processos execute:"
-            echo "./06_processos.sh listar"
-            echo "./06_processos.sh buscar apache"
+            6)
+    clear
+    echo "===== GERENCIAMENTO DE PROCESSOS ====="
+    echo "1 - Listar processos"
+    echo "2 - Buscar processo por nome"
+    echo "3 - Matar processo por PID"
+    echo "0 - Voltar"
+    echo ""
+
+    read -p "Escolha uma opção: " opcao_processo
+
+    case "$opcao_processo" in
+        1)
+            /app/scripts/06_processos.sh listar
             ;;
+        2)
+            read -p "Digite o nome do processo: " nome_processo
+            /app/scripts/06_processos.sh buscar "$nome_processo"
+            ;;
+        3)
+            read -p "Digite o PID do processo: " pid_processo
+            /app/scripts/06_processos.sh matar "$pid_processo"
+            ;;
+        0)
+            echo "Voltando ao menu principal..."
+            ;;
+        *)
+            echo "Opção inválida."
+            ;;
+    esac
+    ;;
 
         7)
             /app/scripts/07_monitoramento.sh
